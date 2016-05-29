@@ -1,0 +1,381 @@
+/*
+Theme Name:		CraftyBusiness
+Theme URI:		http://craftythemes.com
+Description:    CraftyFusion is an excellent business wordpress theme by craftythemes.com
+Author:         CraftyThemes
+Author URI:		http://craftythemes.com
+Template:       Azkaban
+Version:        1.1
+*/
+
+@import url("../Azkaban/style.css");
+
+body { 
+	color: #666;
+	background-color: none;
+	background: url(images/bg1.jpg) top center no-repeat;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 24px;
+	font-size: 13px;
+} 
+
+/***********************************************************/
+/* Typography */
+/***********************************************************/
+h1, h2, h3, h4, h5, h6 {
+	color: #424C5D;
+	font-family: 'Oxygen', sans-serif;
+	font-weight: 400;
+	margin: 10px 0px;
+	padding: 0;
+	letter-spacing: 1px;
+}
+
+h1 {
+	font-size: 28px;
+    line-height: 28px;
+}
+
+h2 {
+	font-size: 22px;
+    line-height: 22px;
+}
+
+h3 {
+	font-size: 16px;
+    line-height: 20px;
+}
+
+a {
+	color: #34ACCB;
+}
+
+a:hover {
+	color: #424C5D;
+}
+
+.az-posttitle a {
+	color: #424C5D;
+}
+
+.az-posttitle a:hover {
+	color: #34ACCB;
+}
+
+/*************************************************************************/
+/* Topbar */
+/*************************************************************************/
+#az-topbarwrap {
+	background-color: #538300;
+	color: #fff;
+	min-height: 40px;
+	font-size: 0.9em;
+}
+
+.az-topbarsocialsleft a, .az-topbarsocialslright a {
+	color: #8BC318;
+}
+
+.az-topbarsocialsleft a:hover, .az-topbarsocialslright a:hover {
+	color: #fff;
+}
+
+/*************************************************************************/
+/* Header */
+/*************************************************************************/
+#az-headerwrap {
+	border: none;
+}
+
+/*************************************************************************/
+/* Navigation */
+/*************************************************************************/
+#az-navigationwrap {
+	background: none;
+	border-bottom: none;
+	font-family: 'Source Sans Pro', sans-serif;
+	min-height: 80px;
+	font-size: 1.1em;
+}
+
+#az-navigationright {
+	float: right;
+	font-family: 'Source Sans Pro', sans-serif;
+	min-height: 40px;
+	margin-top: 30px;
+}
+
+.az-menualert {
+	color: #fff;
+	text-shadow: 1px 1px #279DBC;
+	line-height: 80px;
+}
+
+.az-menualertr {
+	color: #fff;
+	text-shadow: 1px 1px #279DBC;
+}
+
+.az-sitenavr {
+	height: 40px;
+}
+
+.az-sitenavr ul {
+	background: #48C0DF;
+	min-height: 40px;
+	border-radius: 4px;
+}
+
+.az-sitenav a {
+	color: #fff;
+	text-shadow: 1px 1px #279DBC;
+	line-height: 40px;
+}
+
+.az-sitenavr a {
+	color: #fff;
+	line-height: 40px;
+	text-shadow: 1px 1px #279DBC;
+}
+
+.az-sitenav li.current-menu-item a, .az-sitenavr li.current-menu-item a {
+	color: #fff;
+	text-shadow: 1px 1px #279DBC;
+}
+
+.az-sitenav li:hover > a,
+.az-sitenavr li:hover > a {
+	color: #fff;
+	text-shadow: 1px 1px #279DBC;
+}
+
+.az-sitenav ul ul li:hover > a,
+.az-sitenavr ul ul li:hover > a {
+	background-color: #279DBC;
+	color: #000;
+	text-shadow: none;
+}
+
+/* Second level */
+.az-sitenav ul ul, .az-sitenavr ul ul {
+	background-color: #3AB0CE;
+	top: 40px;
+	border-radius: 0px;
+}
+
+.az-sitenav ul ul li, .az-sitenavr ul ul li {
+	color: #548301;
+	border-top: 1px solid #82D7ED;
+}
+
+.az-sitenav ul ul a, .az-sitenavr ul ul a {
+	color: #fff;
+	text-shadow: none;
+}
+
+.az-sitenav li.current-menu-item ul a, .az-sitenavr li.current-menu-item ul a {
+	color: #fff;
+	text-shadow: none;
+}
+
+.az-sitenav ul li:hover > ul, .az-sitenavr ul li:hover > ul {
+	text-shadow: none;
+}
+
+.az-sitenavr ul li ul li.current-menu-item {
+	background-color: #279DBC;
+	
+}
+
+/*************************************************************************/
+/* Container */
+/*************************************************************************/
+#az-containerwrap {
+	background-color: #fff;
+}
+
+/*************************************************************************/
+/* Sections */
+/*************************************************************************/
+.az-sectiontitle {
+	margin: 0;
+	padding: 0;
+    overflow: hidden;
+    line-height: 40px;
+}
+
+.az-sectiontitle span {
+	background: none;
+}
+
+.az-sidebarsectiontitle {
+	margin: 0;
+	padding: 10px 0px;
+    overflow: hidden;
+    background: #3E4858;
+}
+
+.az-sidebarsectiontitle span {
+	background: none;
+	padding-left: 10px;
+	color: #fff;
+	text-shadow: 1px 1px #252C39;
+}
+
+
+/*************************************************************************/
+/* Post Content Section */
+/*************************************************************************/
+.az-postmeta {
+	border-top: 1px solid #E0DEDE;
+	border-bottom: 1px solid #E0DEDE;
+}
+
+#az-pagetitlewrap {
+	float: left;
+	width: 100%;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	background: #fff;
+}
+
+/*************************************************************************/
+/* Sidebar */
+/*************************************************************************/
+#az-sidebar ul li, #az-sidebar ul li ul li {
+	border-bottom: 2px dotted #E0DEDE;
+}
+
+/*************************************************************************/
+/* Footer Widgets */
+/*************************************************************************/
+#az-footerwidgetwrap {
+	color: #fff;
+	background-color: #45738D;
+	text-shadow: -1px -1px 0px #2F5F7A;
+}
+
+#az-footerwidgets h2 {
+	font-weight: 300 !important;
+	color: #f1f1f1;
+	text-shadow: -1px -1px 0px #1E465C;
+}
+
+#az-footerwidgets h3, #az-footerwidgets h4, #az-footerwidgets h5, #az-footerwidgets h6  {
+	color: #f1f1f1;
+}
+
+#az-footerwidgets .widget_title span {
+	background: none repeat scroll 0 0 #45738D;
+	padding-right: 5px;
+}
+
+#az-footerwidgets a {
+	color: #34ACCB;
+}
+
+#az-footerwidgets a:hover {
+	color: #fff;
+}
+
+/*************************************************************************/
+/* Footer */
+/*************************************************************************/
+#az-footerwrap {
+	background-color: #2B4F63;
+	font-size: 0.9em;
+}
+
+#az-footer {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#az-footer p {
+	color: #fff;
+	text-shadow: -1px -1px 0px #1E465C;
+}
+
+#az-footer a {
+	color: #34ACCB;
+	text-decoration: none;
+}
+
+#az-footer a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+
+
+/*************************************************************************/
+/* Mobile Navigation Styles */
+/*************************************************************************/
+nav {  
+	background-color: #48C0DF !important;
+}
+
+nav a {  
+	color: #fff !important;
+}  
+    
+nav li a {  
+	border-right: 1px solid #82D7ED !important;
+	border-left: 1px solid #82D7ED !important;
+}  
+
+nav li:nth-child(even) a {  
+	border: none !important;
+}  
+
+nav li:last-child a {  
+	border-right: 1px solid #82D7ED !important;
+}  
+    
+nav a:hover, nav a:active {  
+	color: #fff !important;
+	background-color: #3AB0CE !important;
+}
+
+@media screen and (max-width: 769px) {  
+	#az-navigationwrap {
+		background-color: #48C0DF !important;
+		min-height: 40px;
+	}
+	nav li a {  
+		border-bottom: 1px solid #82D7ED !important;
+	}
+	nav li:nth-child(even) a {  
+		border-right: 1px solid #82D7ED !important;
+		border-bottom: 1px solid #82D7ED !important;
+	}
+}  
+@media only screen and (max-width : 480px) {  
+	#az-navigationwrap {
+		background-color: #48C0DF !important;
+	}
+	nav li a {  
+		border-bottom: 1px solid #82D7ED !important;
+	}  
+	nav li:nth-child(even) a {  
+		border-right: 1px solid #82D7ED !important;
+		border-bottom: 1px solid #82D7ED !important;
+	}
+}
+@media only screen and (max-width : 320px) {  
+	#az-navigationwrap {
+		background-color: #48C0DF !important;
+	}
+	nav li a {  
+		border-bottom: 1px solid #82D7ED !important;
+	}  
+	nav li:nth-child(even) a {  
+		border-left: 1px solid #82D7ED !important;
+		border-right: 1px solid #82D7ED !important;
+		border-bottom: 1px solid #82D7ED !important;
+	}
+}  
+
+#az-fullwidthboxwrap {
+	margin-top: -70px;
+}
